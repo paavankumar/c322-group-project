@@ -17,12 +17,12 @@ public class ExpertTip extends RecipeDecorator {
 
     @Override
     void listIngredients() {
-
+        recipe.listIngredients();
     }
 
     @Override
     void cookFood() {
-
+        recipe.cookFood();
     }
 
     // lessens cooking time for expert cooks

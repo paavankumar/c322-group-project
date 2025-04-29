@@ -17,12 +17,12 @@ public class IntermediateTip extends RecipeDecorator {
 
     @Override
     void listIngredients() {
-
+        recipe.listIngredients();
     }
 
     @Override
     void cookFood() {
-
+        recipe.cookFood();
     }
 
     // leaves cooking time alone for intermediate cooks
