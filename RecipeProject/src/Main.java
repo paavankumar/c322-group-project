@@ -114,20 +114,36 @@ public class Main {
                     int recipeOption = scanner.nextInt();
                     switch (recipeOption) {
                         case 1 -> {
-                            recipeBook.addRecipe(tacoSalad);
-                            System.out.println("Taco Salad added to your recipe book!");
+                            if (recipeBook.getRecipes().contains(tacoSalad)) {
+                                System.out.println("This recipe is already in your recipe book.");
+                            } else {
+                                recipeBook.addRecipe(tacoSalad);
+                                System.out.println("Taco Salad added to your recipe book!");
+                            }
                         }
                         case 2 -> {
-                            recipeBook.addRecipe(chickenAndDumplings);
-                            System.out.println("Chicken and Dumplings added to your recipe book!");
+                            if (recipeBook.getRecipes().contains(chickenAndDumplings)) {
+                                System.out.println("This recipe is already in your recipe book.");
+                            } else {
+                                recipeBook.addRecipe(chickenAndDumplings);
+                                System.out.println("Chicken and Dumplings added to your recipe book!");
+                            }
                         }
                         case 3 -> {
-                            recipeBook.addRecipe(tomatoSoup);
-                            System.out.println("Tomato Soup added to your recipe book!");
+                            if (recipeBook.getRecipes().contains(tomatoSoup)) {
+                                System.out.println("This recipe is already in your recipe book.");
+                            } else {
+                                recipeBook.addRecipe(tomatoSoup);
+                                System.out.println("Tomato Soup added to your recipe book!");
+                            }
                         }
                         case 4 -> {
-                            recipeBook.addRecipe(veggieBurger);
-                            System.out.println("Veggie Burger added to your recipe book!");
+                            if (recipeBook.getRecipes().contains(veggieBurger)) {
+                                System.out.println("This recipe is already in your recipe book.");
+                            } else {
+                                recipeBook.addRecipe(veggieBurger);
+                                System.out.println("Veggie Burger added to your recipe book!");
+                            }
                         }
                         default -> System.out.println("Invalid input! Going back to main menu.");
                     }
