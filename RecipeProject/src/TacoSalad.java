@@ -9,8 +9,8 @@ public class TacoSalad extends Recipe {
         calories = 350;
         //initializes total cooking time parameter
         cookingTime = 25;
-        //initializes description through getDescription getter method
-        description = getDescription();
+        //initializes description for a taco salad
+        description = "Perfect for a weeknight meal!";
     }
 
     //implements abstract listIngredients() method with this recipe's ingredients

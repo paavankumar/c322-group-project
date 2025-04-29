@@ -10,7 +10,7 @@ public class RecipeBook {
     private volatile static RecipeBook uniqueInstance;
 
     // list that stores all recipes in the recipe book
-    private List<Recipe> recipes;
+    private ArrayList<Recipe> recipes;
 
     // private constructor for instantiation
     private RecipeBook() {
@@ -31,6 +31,9 @@ public class RecipeBook {
         recipes.add(recipe);
     }
 
+    public ArrayList<Recipe> getRecipes() {
+        return recipes;
+    }
 
     // method to print all the recipe names in the recipe book
     public void printAllRecipes() {

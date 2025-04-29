@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 // sorting strategy to sort recipes by cooking time (ascending)
 public class TimeSort implements SortStrategy {

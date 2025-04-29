@@ -9,8 +9,8 @@ public class TomatoSoup extends Recipe {
         calories = 180;
         //initializes total cooking time parameter
         cookingTime = 20;
-        //initializes description through getDescription getter method
-        description = getDescription();
+        //initializes description of tomato soup
+        description = "A warm and comforting soup you can make any time of the day!";
     }
 
     //implements abstract listIngredients() method with this recipe's ingredients

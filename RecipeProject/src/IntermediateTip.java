@@ -15,6 +15,16 @@ public class IntermediateTip extends RecipeDecorator {
                 "- Taste and adjust seasonings as you go.\n";
     }
 
+    @Override
+    void listIngredients() {
+
+    }
+
+    @Override
+    void cookFood() {
+
+    }
+
     // leaves cooking time alone for intermediate cooks
     public int getCookingTime() {
         return recipe.getCookingTime();

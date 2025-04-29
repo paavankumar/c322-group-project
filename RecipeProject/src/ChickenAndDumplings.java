@@ -9,8 +9,8 @@ public class ChickenAndDumplings extends Recipe {
         calories = 460;
         //initializes total cooking time parameter
         cookingTime = 40;
-        //initializes description through getDescription getter method
-        description = getDescription();
+        //initializes description for chicken and dumplings
+        description = "A flavorful, filling dish!";
     }
 
     //implements abstract listIngredients() method with this recipe's ingredients

@@ -9,8 +9,8 @@ public class VeggieBurger extends Recipe {
         calories = 3420;
         //initializes total cooking time parameter
         cookingTime = 35;
-        //initializes description through getDescription getter method
-        description = getDescription();
+        //initializes description of a veggie burger
+        description = "A delicious option for dinner!";
     }
 
     //implements abstract listIngredients() method with this recipe's ingredients

@@ -15,6 +15,17 @@ public class BeginnerTip extends RecipeDecorator {
                 "- Keep a timer nearby so you don’t forget cooking times.";
     }
 
+    @Override
+    void listIngredients() {
+
+    }
+
+    @Override
+    void cookFood() {
+
+    }
+
+
     // adjusts cooking time to accommodate extra time needed for beginner cooks
     public int getCookingTime() {
         return recipe.getCookingTime() + 15;

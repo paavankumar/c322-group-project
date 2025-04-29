@@ -15,6 +15,16 @@ public class ExpertTip extends RecipeDecorator {
                 "- Experiment with plating for presentation and texture contrast.";
     }
 
+    @Override
+    void listIngredients() {
+
+    }
+
+    @Override
+    void cookFood() {
+
+    }
+
     // lessens cooking time for expert cooks
     public int getCookingTime() {
         return recipe.getCookingTime() - 15;
